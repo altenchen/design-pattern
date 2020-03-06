@@ -38,7 +38,6 @@ public abstract class ScheduledReporter {
 //        Map<String, RequestStat> requestStats = aggregator.aggregate(requestInfos, durationInMillis);
 
         Map<String, RequestStat> aggregatedStats = doStat(startTimeInMillis, endTimeInMillis);
-
         viewer.output(aggregatedStats, startTimeInMillis, endTimeInMillis);
     }
 
