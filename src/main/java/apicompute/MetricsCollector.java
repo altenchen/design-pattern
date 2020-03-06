@@ -4,6 +4,7 @@ import apicompute.storage.MetricsStorage;
 import apicompute.storage.RedisMetricsStorage;
 import com.google.common.eventbus.AsyncEventBus;
 import com.google.common.eventbus.EventBus;
+import com.google.common.eventbus.Subscribe;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.EventListener;
@@ -44,7 +45,14 @@ public class MetricsCollector {
         if (requestInfo == null || StringUtils.isBlank(requestInfo.getApiName())) {
             return;
         }
-        metricsStorage.saveRequestInfo(requestInfo);
+        eventBus.post(requestInfo);
+    }
+
+    public class EventListener {
+        @Subscribe
+        public void saveRequestInfo(RequestInfo requestInfo) {
+            metricsStorage.saveRequestInfo(requestInfo);
+        }
     }
 
 
