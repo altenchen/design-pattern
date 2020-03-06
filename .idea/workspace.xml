@@ -5,42 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bc65cc-3153-46a6-a9e5-e87e707bcf74" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/Aggregator$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/Aggregator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/EmailSender.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/MetricsCollector.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/PerfCounterTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/RequestInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/RequestStat.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/factory/ReporterFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/reporter/ConsoleReporter$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/reporter/ConsoleReporter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/reporter/EmailReporter$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/reporter/EmailReporter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/storage/MetricsStorage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/storage/MockRedisMetricsStorage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/storage/RedisMetricsStorage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/viewer/ConsoleViewer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/viewer/EmailViewer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/apicompute/viewer/StatViewer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/exception/IdGenerationFailureException.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/refactor/GeneratorTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/refactor/IdGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/refactor/LogTraceIdGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/refactor/OriginIdGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/refactor/RandomIdGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/CounterTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/CounterTest$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/CounterTest$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/CounterTest$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/CounterTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/transaction/RangeLimiter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/transaction/RedisDistributedLock.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/unittest/transaction/STATUS.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/refactor/RandomIdGeneratorTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apicompute/MetricsCollector.java" afterPath="$PROJECT_DIR$/src/main/java/apicompute/MetricsCollector.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/designpattern.iml" afterPath="$PROJECT_DIR$/designpattern.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java" afterPath="$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,24 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmailReporter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/EmailReporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1134#1518#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PerfCounterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/PerfCounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="444">
               <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,67 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailViewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/EmailViewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="47" />
-              <folding>
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetricsCollector.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MetricsCollector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/MetricsCollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="339">
+              <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventBus.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/mavenRepository/com/google/guava/guava/27.0-jre/guava-27.0-jre.jar!/com/google/common/eventbus/EventBus.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <marker date="1582614815000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1582614815000" expanded="true" signature="150:517" ph="..." />
-                <marker date="1582614815000" expanded="false" signature="884:895" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="911:917" ph=" }" />
-                <marker date="1582614815000" expanded="true" signature="958:1094" ph="{...}" />
-                <marker date="1582614815000" expanded="true" signature="1161:1280" ph="{...}" />
-                <marker date="1582614815000" expanded="true" signature="1401:1795" ph="{...}" />
-                <marker date="1582614815000" expanded="false" signature="1833:1844" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="1867:1873" ph=" }" />
-                <marker date="1582614815000" expanded="false" signature="1904:1915" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="1936:1942" ph=" }" />
-                <marker date="1582614815000" expanded="true" signature="2028:2376" ph="{...}" />
-                <marker date="1582614815000" expanded="false" signature="2417:2428" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="2462:2468" ph=" }" />
-                <marker date="1582614815000" expanded="false" signature="2511:2522" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="2558:2564" ph=" }" />
-                <marker date="1582614815000" expanded="true" signature="2601:2915" ph="{...}" />
-                <marker date="1582614815000" expanded="false" signature="2945:2956" ph=" { " />
-                <marker date="1582614815000" expanded="false" signature="3033:3039" ph=" }" />
-                <marker date="1582614815000" expanded="true" signature="3117:4106" ph="{...}" />
-                <marker date="1582614815000" expanded="true" signature="3232:3243" ph="{}" />
-                <marker date="1582614815000" expanded="true" signature="3338:3531" ph="{...}" />
-                <marker date="1582614815000" expanded="true" signature="3606:3723" ph="{...}" />
-                <marker date="1582614815000" expanded="true" signature="3799:4100" ph="{...}" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +77,32 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1583462136000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1583462136000" expanded="false" signature="150:517" ph="..." />
+                <marker date="1583462136000" expanded="false" signature="884:895" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="911:917" ph=" }" />
+                <marker date="1583462136000" expanded="true" signature="958:1094" ph="{...}" />
+                <marker date="1583462136000" expanded="true" signature="1161:1280" ph="{...}" />
+                <marker date="1583462136000" expanded="true" signature="1401:1795" ph="{...}" />
+                <marker date="1583462136000" expanded="false" signature="1833:1844" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="1867:1873" ph=" }" />
+                <marker date="1583462136000" expanded="false" signature="1904:1915" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="1936:1942" ph=" }" />
+                <marker date="1583462136000" expanded="true" signature="2028:2376" ph="{...}" />
+                <marker date="1583462136000" expanded="false" signature="2417:2428" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="2462:2468" ph=" }" />
+                <marker date="1583462136000" expanded="false" signature="2511:2522" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="2558:2564" ph=" }" />
+                <marker date="1583462136000" expanded="true" signature="2601:2915" ph="{...}" />
+                <marker date="1583462136000" expanded="false" signature="2945:2956" ph=" { " />
+                <marker date="1583462136000" expanded="false" signature="3033:3039" ph=" }" />
+                <marker date="1583462136000" expanded="true" signature="3117:4106" ph="{...}" />
+                <marker date="1583462136000" expanded="true" signature="3232:3243" ph="{}" />
+                <marker date="1583462136000" expanded="true" signature="3338:3531" ph="{...}" />
+                <marker date="1583462136000" expanded="true" signature="3606:3723" ph="{...}" />
+                <marker date="1583462136000" expanded="true" signature="3799:4100" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,6 +122,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleReporter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ConsoleReporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduledReporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-278">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="740" column="14" lean-forward="false" selection-start-line="740" selection-start-column="14" selection-end-line="740" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -254,13 +218,13 @@
         <option value="$PROJECT_DIR$/src/main/java/apicompute/storage/RedisMetricsStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/storage/MockRedisMetricsStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/factory/ReporterFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/reporter/ConsoleReporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/reporter/EmailReporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/viewer/EmailViewer.java" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/PerfCounterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/apicompute/MetricsCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java" />
       </list>
     </option>
   </component>
@@ -445,6 +409,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -861,7 +826,7 @@
       <updated>1582532107121</updated>
       <workItem from="1582532109729" duration="22347000" />
       <workItem from="1583118192560" duration="8173000" />
-      <workItem from="1583291811430" duration="6899000" />
+      <workItem from="1583291811430" duration="9187000" />
     </task>
     <servers />
   </component>
@@ -898,7 +863,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37419000" />
+    <option name="totallyTimeSpent" value="39707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -946,14 +911,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="557" column="30" lean-forward="false" selection-start-line="557" selection-start-column="30" selection-end-line="557" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/unittest/transaction/STATUS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1257,16 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/storage/MetricsStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1275,25 +1222,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ConsoleReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/EmailReporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1134#1518#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1134#1518#0" expanded="false" />
+            <element signature="e#1517#1518#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1303,20 +1239,10 @@
         <state relative-caret-position="159">
           <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="47" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/PerfCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1374,7 +1300,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1583462136000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1583462136000" expanded="false" signature="150:517" ph="..." />
+            <marker date="1583462136000" expanded="false" signature="884:895" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="911:917" ph=" }" />
+            <marker date="1583462136000" expanded="true" signature="958:1094" ph="{...}" />
+            <marker date="1583462136000" expanded="true" signature="1161:1280" ph="{...}" />
+            <marker date="1583462136000" expanded="true" signature="1401:1795" ph="{...}" />
+            <marker date="1583462136000" expanded="false" signature="1833:1844" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="1867:1873" ph=" }" />
+            <marker date="1583462136000" expanded="false" signature="1904:1915" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="1936:1942" ph=" }" />
+            <marker date="1583462136000" expanded="true" signature="2028:2376" ph="{...}" />
+            <marker date="1583462136000" expanded="false" signature="2417:2428" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="2462:2468" ph=" }" />
+            <marker date="1583462136000" expanded="false" signature="2511:2522" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="2558:2564" ph=" }" />
+            <marker date="1583462136000" expanded="true" signature="2601:2915" ph="{...}" />
+            <marker date="1583462136000" expanded="false" signature="2945:2956" ph=" { " />
+            <marker date="1583462136000" expanded="false" signature="3033:3039" ph=" }" />
+            <marker date="1583462136000" expanded="true" signature="3117:4106" ph="{...}" />
+            <marker date="1583462136000" expanded="true" signature="3232:3243" ph="{}" />
+            <marker date="1583462136000" expanded="true" signature="3338:3531" ph="{...}" />
+            <marker date="1583462136000" expanded="true" signature="3606:3723" ph="{...}" />
+            <marker date="1583462136000" expanded="true" signature="3799:4100" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,15 +1347,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/MetricsCollector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="339">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/PerfCounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="740" column="14" lean-forward="false" selection-start-line="740" selection-start-column="14" selection-end-line="740" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ScheduledReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/reporter/ConsoleReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
