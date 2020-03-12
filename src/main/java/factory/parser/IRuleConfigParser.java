@@ -1,4 +1,6 @@
-package factory;
+package factory.parser;
+
+import factory.RuleConfig;
 
 /**
  * @description:

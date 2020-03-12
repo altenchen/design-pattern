@@ -1,6 +1,8 @@
 package factory.simple;
 
 import factory.*;
+import factory.exception.InvalidRuleConfigException;
+import factory.parser.IRuleConfigParser;
 
 /**
  * @description:
@@ -11,7 +13,7 @@ public class RuleConfigSource {
 
     public RuleConfig load(String ruleConfigFilePath) throws InvalidRuleConfigException {
         String ruleConfigFileExtension = getFileExtension(ruleConfigFilePath);
-        IRuleConfigParser parser = RuleConfigParserFactory.createParser(ruleConfigFilePath, ruleConfigFileExtension);
+        IRuleConfigParser parser = RuleConfigParserFactory.createParser(ruleConfigFileExtension);
         if (parser == null) {
             throw new InvalidRuleConfigException(
                     "Rule config file format is not supported: " + ruleConfigFilePath);
