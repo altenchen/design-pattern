@@ -1,9 +1,5 @@
 package singleton;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -203,7 +199,6 @@ public class IdGenerator {
         return instances.get(serverNo);
     }
     end*/
-
 
     public long getId() {
         return id.incrementAndGet();
