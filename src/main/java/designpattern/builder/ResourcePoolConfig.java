@@ -20,33 +20,32 @@ public class ResourcePoolConfig {
     private int maxIdel = DEFAULT_MAX_IDEL;
     private int minIdel = DEFAULT_MIN_IDLE;
 
-    public ResourcePoolConfig(String name, Integer maxTotal, Integer maxIdel, Integer minIdel) {
+    public ResourcePoolConfig(String name) {
         if (StringUtils.isBlank(name)) {
             throw new IllegalArgumentException("name should not be empty.");
         }
         this.name = name;
-
-        if (maxTotal != null) {
-            if (maxTotal <= 0) {
-                throw new IllegalArgumentException("maxTotal should be positive.");
-            }
-            this.maxTotal = maxTotal;
-        }
-
-        if (maxIdel != null) {
-            if (maxIdel <= 0) {
-                throw new IllegalArgumentException("maxIdle should be positive.");
-            }
-            this.maxIdel = maxIdel;
-        }
-
-        if (minIdel != null) {
-            if (minIdel <= 0) {
-                throw new IllegalArgumentException("minIdel should be positive");
-            }
-            this.minIdel = minIdel;
-        }
     }
 
+    public void setMaxTotal(int maxTotal) {
+        if (maxTotal <= 0) {
+            throw new IllegalArgumentException("maxTotal should be positive.");
+        }
+        this.maxTotal = maxTotal;
+    }
+
+    public void setMaxIdel(int maxIdel) {
+        if (maxIdel <= 0) {
+            throw new IllegalArgumentException("maxIdle should be positive.");
+        }
+        this.maxIdel = maxIdel;
+    }
+
+    public void setMinIdel(int minIdel) {
+        if (minIdel <= 0) {
+            throw new IllegalArgumentException("minIdel should be positive");
+        }
+        this.minIdel = minIdel;
+    }
 
 }
