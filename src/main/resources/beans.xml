@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <beans>
+        <bean id="rateLimiter" class="">
+            <constructor-arg ref="redisCounter" />
+        </bean>
+
+        <bean id="redisCount" class="" scope="singleton" lazy-init="true">
+            <constructor-arg type="String" value="127.0.0.1" />
+            <constructor-arg type="int" value="1234" />
+        </bean>
+    </beans>
+
+</configuration>
