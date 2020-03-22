@@ -47,6 +47,16 @@ public class BeansFactory {
         return null;
     }
 
+    /**
+     * 递归的createBean方法可能由于循环调用导致堆栈溢出
+     * 1. 研究了Spring容器中处理循环依赖的知识点：
+     * （1）只能处理单例的、setter注入的循环依赖，其他的注入模式无法处理；
+     * （2）依赖缓存处理循环依赖，关键思想是，将正在创建中的对象提前暴露一个单例工厂，让其他实例可以引用到
+     * 2. 网上一篇比较好的文章：https://juejin.im/post/5d0d8f64f265da1b7b3193ac
+     * @param beanDefinition
+     * @return
+     * @throws BeanCreationFailureException
+     */
     @VisibleForTesting
     protected Object createBean(BeanDefinition beanDefinition) throws BeanCreationFailureException {
         if (beanDefinition.isSingleton() && singletonObjects.containsKey(beanDefinition.getId())) {
