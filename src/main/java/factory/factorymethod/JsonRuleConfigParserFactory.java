@@ -1,7 +1,8 @@
 package factory.factorymethod;
 
-import factory.parser.IRuleConfigParser;
-import factory.parser.JsonRuleConfigParser;
+
+import designpattern.factory.parser.IRuleConfigParser;
+import designpattern.factory.parser.JsonRuleConfigParser;
 
 /**
  * @description:

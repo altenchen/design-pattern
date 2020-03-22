@@ -1,11 +1,7 @@
 package factory.factorymethod;
 
+import designpattern.factory.exception.InvalidRuleConfigException;
 
-
-import factory.exception.InvalidRuleConfigException;
-import factory.parser.IRuleConfigParser;
-
-import javax.management.relation.InvalidRelationIdException;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,7 +1,8 @@
 package factory.factorymethod;
 
-import factory.parser.IRuleConfigParser;
-import factory.parser.YamlRuleConfigParser;
+
+import designpattern.factory.parser.IRuleConfigParser;
+import designpattern.factory.parser.YamlRuleConfigParser;
 
 /**
  * @description:

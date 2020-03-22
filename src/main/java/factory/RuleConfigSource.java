@@ -1,11 +1,10 @@
 package factory;
 
-import factory.exception.InvalidRuleConfigException;
+import designpattern.factory.RuleConfig;
+import designpattern.factory.exception.InvalidRuleConfigException;
+import designpattern.factory.parser.IRuleConfigParser;
 import factory.factorymethod.IRuleConfigParserFactory;
 import factory.factorymethod.RuleConfigParserFactoryMap;
-import factory.parser.IRuleConfigParser;
-
-import javax.management.relation.InvalidRelationIdException;
 
 /**
  * @description:

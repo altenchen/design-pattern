@@ -1,6 +1,7 @@
 package factory.factorymethod;
 
-import factory.parser.IRuleConfigParser;
+
+import designpattern.factory.parser.IRuleConfigParser;
 
 /**
  * @description:

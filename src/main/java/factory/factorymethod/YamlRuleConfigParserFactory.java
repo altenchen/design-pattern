@@ -1,7 +1,7 @@
 package factory.factorymethod;
 
-import factory.parser.IRuleConfigParser;
-import factory.parser.XmlRuleConfigParser;
+import designpattern.factory.parser.IRuleConfigParser;
+import designpattern.factory.parser.XmlRuleConfigParser;
 
 /**
  * @description:
