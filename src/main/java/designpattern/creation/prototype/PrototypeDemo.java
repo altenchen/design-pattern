@@ -3,6 +3,7 @@ package designpattern.creation.prototype;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -17,7 +18,12 @@ public class PrototypeDemo {
 
     public void refresh() {
         //原型模式就是这么简单，拷贝已有对象的数据，更新少量差值
-        HashMap<String, SearchWord> newKeywords = (HashMap<String, SearchWord>) currentKeywords.clone();
+        HashMap<String, SearchWord> newKeywords = new HashMap<>();
+        for (Map.Entry<String, SearchWord> e : currentKeywords.entrySet()) {
+            SearchWord searchWord = e.getValue();
+            SearchWord searchWord1 = new SearchWord(searchWord.getKeyword(), searchWord.getLastUpdateTime(), searchWord.getCount());
+            newKeywords.put(e.getKey(), searchWord);
+        }
 
         //从数据库中取出更新时间 > lastUpdateTime 的数据，更新少量差值
         List<SearchWord> toBeUpdatedSearchWords = getSearchWords(lastUpdateTime);

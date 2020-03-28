@@ -11,6 +11,12 @@ public class SearchWord {
     private long lastUpdateTime;
     private long count;
 
+    public SearchWord(String keyword, long lastUpdateTime, long count) {
+        this.keyword = keyword;
+        this.lastUpdateTime = lastUpdateTime;
+        this.count = count;
+    }
+
     public String getKeyword() {
         return keyword;
     }
