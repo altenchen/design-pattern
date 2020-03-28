@@ -3,53 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75f64cf0-694e-46b9-96a8-5276d328032c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/designpattern.iml" afterPath="$PROJECT_DIR$/designpattern.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/builder/ResourcePoolConfig.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/builder/ResourcePoolConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/builder/Test.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/builder/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/RuleConfig.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/RuleConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/RuleConfigSource.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/RuleConfigSource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/ApplicationContext.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/ApplicationContext.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/BeanConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/BeanConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/BeanDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/BeanDefinition.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/BeansFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/BeansFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/ClassPathXmlApplicationContext.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/ClassPathXmlApplicationContext.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/DiDemo.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/DiDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/RateLimiter.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/RateLimiter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/RedisCounter.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/RedisCounter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/Scope.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/Scope.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/didemo/XmlBeanConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/didemo/XmlBeanConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/exception/BeanCreationFailureException.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/exception/BeanCreationFailureException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/exception/InvalidRuleConfigException.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/exception/InvalidRuleConfigException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/exception/NoSuchBeanDefinitionException.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/exception/NoSuchBeanDefinitionException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/IRuleConfigParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/factorymethod/IRuleConfigParserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/JsonRuleConfigParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/factorymethod/JsonRuleConfigParserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/RuleConfigParserFactoryMap.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/factorymethod/RuleConfigParserFactoryMap.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/XmlRuleConfigParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/factorymethod/XmlRuleConfigParserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/YamlRuleConfigParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/factorymethod/YamlRuleConfigParserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/parser/IRuleConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/parser/IRuleConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/parser/JsonRuleConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/parser/JsonRuleConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/parser/XmlRuleConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/parser/XmlRuleConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/parser/YamlRuleConfigParser.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/parser/YamlRuleConfigParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/simple/RuleConfigParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/factory/simple/RuleConfigParserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Config.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/Config.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/DistributedLock.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/DistributedLock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/IdGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/IdGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/IdGeneratorEnum.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/IdGeneratorEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Logger.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/Logger.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/NoneSingletonLogger.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/NoneSingletonLogger.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/OrderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/SharedObjectStorage.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/SharedObjectStorage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/Singleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/SingletonIdGeneration.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/SingletonIdGeneration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/Test.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/singleton/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/singleton/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/factorymethod/XmlRuleConfigParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/PrototypeDemo.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/PrototypeDemo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java" afterPath="$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +39,7 @@
       <file leaf-file-name="ConsoleViewer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/ConsoleViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="225">
               <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +51,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="600">
               <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
@@ -126,11 +81,11 @@
       <file leaf-file-name="PrototypeDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/PrototypeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="251">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#302#322#0" expanded="true" />
+                <element signature="e#340#360#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,20 +94,10 @@
       <file leaf-file-name="SearchWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,10 +153,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="735" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -231,10 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +231,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,11 +383,12 @@
       <updated>1584888541727</updated>
       <workItem from="1584888543426" duration="2176000" />
       <workItem from="1584972369519" duration="2990000" />
+      <workItem from="1585398775110" duration="2615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5166000" />
+    <option name="totallyTimeSpent" value="8630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +400,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="735" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,12 +410,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53084415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31578946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33360258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,6 +471,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/builder/ResourcePoolConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -542,46 +497,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/ConsoleViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -614,54 +534,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/XmlRuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/XmlRuleConfigParserFactory.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -714,31 +592,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="495">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/PrototypeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="233">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#302#322#0" expanded="true" />
+            <element signature="e#340#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/builder/ResourcePoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/builder/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/ConsoleViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/JsonRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/RuleConfigParserFactoryMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/YamlRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/RuleConfigSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/XmlRuleConfigParserFactory.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/EmailViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/builder/ResourcePoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/builder/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/structure/Structure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apicompute/viewer/ConsoleViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/SearchWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/creation/prototype/PrototypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#360#0" expanded="true" />
           </folding>
         </state>
       </provider>

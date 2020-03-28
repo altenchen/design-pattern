@@ -9,7 +9,7 @@ public class SearchWord {
 
     private String keyword;
     private long lastUpdateTime;
-    private long time;
+    private long count;
 
     public String getKeyword() {
         return keyword;
@@ -27,11 +27,11 @@ public class SearchWord {
         this.lastUpdateTime = lastUpdateTime;
     }
 
-    public long getTime() {
-        return time;
+    public long getCount() {
+        return count;
     }
 
-    public void setTime(long time) {
-        this.time = time;
+    public void setCount(long time) {
+        this.count = time;
     }
 }

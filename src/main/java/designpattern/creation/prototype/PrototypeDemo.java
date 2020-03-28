@@ -13,21 +13,34 @@ import java.util.concurrent.ConcurrentHashMap;
 public class PrototypeDemo {
 
     private HashMap<String, SearchWord> currentKeywords = new HashMap<String, SearchWord>();
+    private long lastUpdateTime = -1;
 
     public void refresh() {
-        LinkedHashMap<String, SearchWord> newKeywords = new LinkedHashMap<>();
+        //原型模式就是这么简单，拷贝已有对象的数据，更新少量差值
+        HashMap<String, SearchWord> newKeywords = (HashMap<String, SearchWord>) currentKeywords.clone();
 
-        //从数据库中取出所有的数据，放入到newKeywords中
-        List<SearchWord> toBeUpdatedSearchWords = getSearchWords();
+        //从数据库中取出更新时间 > lastUpdateTime 的数据，更新少量差值
+        List<SearchWord> toBeUpdatedSearchWords = getSearchWords(lastUpdateTime);
+        long maxNewUpdatedTime = lastUpdateTime;
         for (SearchWord searchWord : toBeUpdatedSearchWords) {
-            newKeywords.put(searchWord.getKeyword(), searchWord);
+            if (searchWord.getLastUpdateTime() > maxNewUpdatedTime) {
+                maxNewUpdatedTime = searchWord.getLastUpdateTime();
+            }
+            if (newKeywords.containsKey(searchWord.getKeyword())) {
+                SearchWord oldSearchWord = newKeywords.get(searchWord.getKeyword());
+                oldSearchWord.setCount(searchWord.getCount());
+                oldSearchWord.setLastUpdateTime(searchWord.getLastUpdateTime());
+            } else {
+                newKeywords.put(searchWord.getKeyword(), searchWord);
+            }
         }
 
+        lastUpdateTime = maxNewUpdatedTime;
         currentKeywords = newKeywords;
     }
 
-    private List<SearchWord> getSearchWords() {
-        //TODO:从数据库中取出所有数据
+    private List<SearchWord> getSearchWords(long lastUpdateTime) {
+        //TODO:从数据库中取出更新时间 > lastUpdateTime 的数据
         return null;
     }
 
