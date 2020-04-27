@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apicount" />
-        <module name="designpattern" />
+        <module name="design-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apicount" target="1.7" />
-      <module name="designpattern" target="1.8" />
+      <module name="design-pattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
