@@ -6,13 +6,11 @@ package designpattern.behavior.responsibilitychain;
  * @description 功能
  */
 public class HandlerA extends Handler {
+    
     @Override
-    public boolean handler() {
+    protected boolean doHandle() {
         boolean handled = false;
-        //todo:
-        if (!handled && successor != null) {
-            successor.handler();
-        }
+        //...
         return handled;
     }
 }
