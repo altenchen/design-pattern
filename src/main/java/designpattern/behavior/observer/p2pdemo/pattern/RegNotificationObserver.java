@@ -12,12 +12,6 @@ public class RegNotificationObserver implements RegObserver {
     
     @Override
     public void handleRegSuccess(long userId) {
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                notificationService.sendInboxMessage(userId, "mutiple run...");
-            }
-        });
-        thread.start();
+        notificationService.sendInboxMessage(userId, "mutiple run...");
     }
 }

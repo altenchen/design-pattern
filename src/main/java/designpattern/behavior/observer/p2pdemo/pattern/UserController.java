@@ -4,6 +4,7 @@ import designpattern.behavior.observer.p2pdemo.UserService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executor;
 
 /**
  * @author altenchen
@@ -13,6 +14,11 @@ import java.util.List;
 public class UserController {
     private UserService userService = new UserService(); //依赖注入
     private List<RegObserver> regObservers = new ArrayList<>();
+    private Executor executor;
+    
+    public UserController(Executor executor) {
+        this.executor = executor;
+    }
     
     //一次性设置好，之后也不可能动态的修改
     public void setRegObservers(List<RegObserver> observers) {
@@ -24,7 +30,12 @@ public class UserController {
         //省略userService.register()异常的try-catch代码
         long userId = userService.register(telephone, password);
         for (RegObserver observer : regObservers) {
-            observer.handleRegSuccess(userId);
+            executor.execute(new Runnable() {
+                @Override
+                public void run() {
+                    observer.handleRegSuccess(userId);
+                }
+            });
         }
         return userId;
     }
