@@ -1,4 +1,7 @@
-package designpattern.behavior.observer.p2pdemo;
+package designpattern.behavior.observer.p2pdemo.nonpattern;
+
+import designpattern.behavior.observer.p2pdemo.PromotionService;
+import designpattern.behavior.observer.p2pdemo.UserService;
 
 /**
  * @author altenchen

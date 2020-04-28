@@ -5,9 +5,11 @@ package designpattern.behavior.observer.p2pdemo;
  * @time 2020/4/28
  * @description 功能
  */
-public interface UserService {
+public class UserService {
 
-    long register(String telephone, String password);
-
+    public long register(String telephone, String password) {
+        System.out.println("register...");
+        return 0L;
+    }
 
 }

@@ -5,6 +5,8 @@ package designpattern.behavior.observer.p2pdemo;
  * @time 2020/4/28
  * @description 功能
  */
-public interface PromotionService {
-    void issueNewUserExperienceCash(long userId);
+public class PromotionService {
+    public void issueNewUserExperienceCash(long userId) {
+        System.out.println("issueNewUserExperienceCash...");
+    };
 }

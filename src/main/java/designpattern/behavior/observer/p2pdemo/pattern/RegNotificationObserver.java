@@ -1,0 +1,18 @@
+package designpattern.behavior.observer.p2pdemo.pattern;
+
+import designpattern.behavior.observer.p2pdemo.NotificationService;
+
+/**
+ * @author altenchen
+ * @time 2020/4/28
+ * @description 功能
+ */
+public class RegNotificationObserver implements RegObserver {
+    private NotificationService notificationService = new NotificationService(); //依赖注入
+    
+    @Override
+    public void handleRegSuccess(long userId) {
+        System.out.println("RegNotificationObserver run...");
+        notificationService.sendInboxMessage(userId, "Welcome ...");
+    }
+}
