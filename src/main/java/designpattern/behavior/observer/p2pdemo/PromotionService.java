@@ -8,5 +8,5 @@ package designpattern.behavior.observer.p2pdemo;
 public class PromotionService {
     public void issueNewUserExperienceCash(long userId) {
         System.out.println("issueNewUserExperienceCash...");
-    };
+    }
 }

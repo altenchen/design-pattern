@@ -12,7 +12,12 @@ public class RegPromotionObserver implements RegObserver {
     
     @Override
     public void handleRegSuccess(long userId) {
-        System.out.println("RegPromotionObserver run...");
-        promotionService.issueNewUserExperienceCash(userId);
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                promotionService.issueNewUserExperienceCash(userId);
+            }
+        });
+        thread.start();
     }
 }
