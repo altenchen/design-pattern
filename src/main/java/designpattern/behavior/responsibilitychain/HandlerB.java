@@ -5,10 +5,10 @@ package designpattern.behavior.responsibilitychain;
  * @time 2020/4/27
  * @description 功能
  */
-public class HandlerB implements IHandler {
+public class HandlerB extends Handler {
     
     @Override
-    public boolean handle() {
+    protected boolean doHandle() {
         boolean handled = false;
         //...
         return handled;

@@ -14,8 +14,9 @@ public abstract class Handler {
     }
     
     public final void handle() {
-        boolean handled = doHandle();
-        if (successor != null && !handled) {
+        //责任链变体，请求会被所有处理器都处理一遍
+        doHandle();
+        if (successor != null) {
             successor.handle();
         }
     }
