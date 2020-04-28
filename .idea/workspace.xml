@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="75f64cf0-694e-46b9-96a8-5276d328032c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ApplicationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ApplicationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Subject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,46 +21,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/responsibilitychain/sensitivefliterdemo/SexyWordFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/responsibilitychain/sensitivefliterdemo/ApplicationDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/PromotionService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteSubject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
@@ -66,19 +82,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverOne.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverTwo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#218#219#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -87,34 +103,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ApplicationDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Message.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ApplicationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/responsibilitychain/sensitivefliterdemo/SensitiveWordFilterChain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -124,8 +126,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -166,6 +168,10 @@
         <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ApplicationDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ApplicationDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/PromotionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserController.java" />
       </list>
     </option>
   </component>
@@ -250,6 +256,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="behavior" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="p2pdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
               <item name="creation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -273,7 +290,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588063361255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588064570533" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -296,12 +313,12 @@
       </method>
     </configuration>
     <configuration name="ApplicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.behavior.observer.ApplicationDemo" />
+      <option name="MAIN_CLASS_NAME" value="designpattern.behavior.observer.basicdemo.ApplicationDemo" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.behavior.observer.*" />
+          <option name="PATTERN" value="designpattern.behavior.observer.basicdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,12 +450,12 @@
       <updated>1584888541727</updated>
       <workItem from="1584888543426" duration="2064000" />
       <workItem from="1587985368819" duration="1000" />
-      <workItem from="1587985485203" duration="13279000" />
+      <workItem from="1587985485203" duration="14245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16008000" />
+    <option name="totallyTimeSpent" value="16974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,6 +468,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -463,7 +481,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45648313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45648313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,31 +707,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ApplicationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteObserverTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteObserverTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#218#219#0" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
@@ -721,10 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ConcreteSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -735,17 +749,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/ApplicationDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/basicdemo/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/PromotionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/behavior/observer/p2pdemo/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
