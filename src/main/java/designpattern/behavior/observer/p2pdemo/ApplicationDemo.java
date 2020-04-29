@@ -1,14 +1,10 @@
 package designpattern.behavior.observer.p2pdemo;
 
 import designpattern.behavior.observer.p2pdemo.pattern.RegNotificationObserver;
-import designpattern.behavior.observer.p2pdemo.pattern.RegObserver;
 import designpattern.behavior.observer.p2pdemo.pattern.RegPromotionObserver;
 import designpattern.behavior.observer.p2pdemo.pattern.UserController;
 
 import java.util.ArrayList;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author altenchen
