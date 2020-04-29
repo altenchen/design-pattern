@@ -4,6 +4,8 @@ import com.google.common.util.concurrent.MoreExecutors;
 
 import java.util.List;
 import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 /**
@@ -13,7 +15,7 @@ import java.util.concurrent.Executor;
  */
 public class EventBus {
     
-    private Executor executor;
+    private Executor executor = Executors.newFixedThreadPool(10);
     private ObserverRegistery registry = new ObserverRegistery();
     
     public EventBus() {

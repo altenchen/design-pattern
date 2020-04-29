@@ -1,6 +1,7 @@
 package designpattern.behavior.observer.p2pdemo.eventbussimpleimpl;
 
 import com.google.common.base.Preconditions;
+import org.apache.commons.beanutils.MethodUtils;
 
 import java.lang.reflect.Method;
 import java.util.*;
@@ -51,7 +52,10 @@ public class ObserverRegistery {
         for (Map.Entry<Class<?>, CopyOnWriteArraySet<ObserverAction>> entry : registry.entrySet()) {
             Class<?> eventType = entry.getKey();
             CopyOnWriteArraySet<ObserverAction> eventActions = entry.getValue();
-            if (postedEventType.isAssignableFrom(eventType)) {
+//            if (postedEventType.isAssignableFrom(eventType)) {
+//                matchedObservers.addAll(eventActions);
+//            }
+            if (MethodUtils.isAssignmentCompatible(eventType, postedEventType)) {
                 matchedObservers.addAll(eventActions);
             }
         }

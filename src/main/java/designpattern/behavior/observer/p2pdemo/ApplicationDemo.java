@@ -25,6 +25,5 @@ public class ApplicationDemo {
         
         userController.setRegObservers(regObservers);
         userController.register("15210097420", "123456");
-        
     }
 }
