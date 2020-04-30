@@ -1,5 +1,7 @@
 package designpattern.behavior.finitestatemachine;
 
+import static designpattern.behavior.finitestatemachine.State.*;
+
 /**
  * @author altenchen
  * @time 2020/4/30
@@ -10,51 +12,48 @@ public class MarioStateMachine {
     private int score;
     private State currentState;
     
+    private static final State[][] transitionTable = {
+        {SUPER, CAPE, FIRE, SMALL},
+        {SUPER, CAPE, FIRE, SMALL},
+        {CAPE, CAPE, CAPE, SMALL},
+        {FIRE, FIRE, FIRE, SMALL}
+    };
+    
+    private static final int[][] actionTable = {
+            {+100, +200, +300, +0},
+            {+0, +200, +300, -100},
+            {+0, +0, +0, -200},
+            {+0, +0, +0, -300}
+    };
+    
     public MarioStateMachine() {
         this.score = 0;
-        this.currentState = State.SAMLL;
+        this.currentState = SMALL;
     }
     
     public void obtainMushRoom() {
-        if (currentState.equals(State.SAMLL)) {
-            this.currentState = State.SUPER;
-            this.score += 100;
-        }
+        executeEvent(Event.GOT_MASHROOM);
     }
     
     public void obtainCape() {
-        if (currentState.equals(State.SAMLL) || currentState.equals(State.SUPER)) {
-            this.currentState = State.CAPE;
-            this.score += 200;
-        }
+        executeEvent(Event.GOT_CAPE);
     }
     
     public void obtainFireFlower() {
-        if (currentState.equals(State.SAMLL) || currentState.equals(State.SUPER)) {
-            this.currentState = State.FIRE;
-            this.score +=300;
-        }
+        executeEvent(Event.GOT_FIRE);
     }
     
-    private void meetMonster() {
-        if (currentState.equals(State.SUPER)) {
-            this.currentState = State.SAMLL;
-            this.score -= 100;
-            return;
-        }
-        
-        if (currentState.equals(State.CAPE)) {
-            this.currentState = State.SAMLL;
-            this.score -= 200;
-            return;
-        }
-        
-        if (currentState.equals(State.FIRE)) {
-            this.currentState = State.SAMLL;
-            this.score -= 300;
-            return;
-        }
+    public void meetMonster() {
+        executeEvent(Event.MET_MONSTER);
     }
+    
+    public void executeEvent(Event event) {
+        int stateValue = currentState.getValue();
+        int eventValue = event.getValue();
+        this.currentState = transitionTable[stateValue][eventValue];
+        this.score = actionTable[stateValue][eventValue];
+    }
+    
     
     public int getScore() {
         return this.score;

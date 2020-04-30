@@ -5,20 +5,18 @@ package designpattern.behavior.finitestatemachine;
  * @time 2020/4/30
  * @description 功能
  */
-public enum State {
-    SMALL(0),
-    SUPER(1),
-    FIRE(2),
-    CAPE(3);
+public enum Event {
+    GOT_MASHROOM(0),
+    GOT_CAPE(1),
+    GOT_FIRE(2),
+    MET_MONSTER(3);
     
     private int value;
     
-    private State(int value) {
+    private Event(int value) {
         this.value = value;
     }
     
     public int getValue() {
         return this.value;
-    }
-}
-
+    }}
