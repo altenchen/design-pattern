@@ -1,7 +1,5 @@
 package designpattern.behavior.finitestatemachine;
 
-import com.sun.scenario.effect.impl.prism.PrImage;
-
 /**
  * @author altenchen
  * @time 2020/4/30

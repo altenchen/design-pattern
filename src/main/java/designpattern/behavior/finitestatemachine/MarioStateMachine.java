@@ -16,19 +16,44 @@ public class MarioStateMachine {
     }
     
     public void obtainMushRoom() {
-        //TODO
+        if (currentState.equals(State.SAMLL)) {
+            this.currentState = State.SUPER;
+            this.score += 100;
+        }
     }
     
     public void obtainCape() {
-        //TODO
+        if (currentState.equals(State.SAMLL) || currentState.equals(State.SUPER)) {
+            this.currentState = State.CAPE;
+            this.score += 200;
+        }
     }
     
     public void obtainFireFlower() {
-        //TODO
+        if (currentState.equals(State.SAMLL) || currentState.equals(State.SUPER)) {
+            this.currentState = State.FIRE;
+            this.score +=300;
+        }
     }
     
     private void meetMonster() {
-        //TODO
+        if (currentState.equals(State.SUPER)) {
+            this.currentState = State.SAMLL;
+            this.score -= 100;
+            return;
+        }
+        
+        if (currentState.equals(State.CAPE)) {
+            this.currentState = State.SAMLL;
+            this.score -= 200;
+            return;
+        }
+        
+        if (currentState.equals(State.FIRE)) {
+            this.currentState = State.SAMLL;
+            this.score -= 300;
+            return;
+        }
     }
     
     public int getScore() {
