@@ -36,7 +36,7 @@ public class MarioStateMachine {
         }
     }
     
-    private void meetMonster() {
+    public void meetMonster() {
         if (currentState.equals(State.SUPER)) {
             this.currentState = State.SAMLL;
             this.score -= 100;
