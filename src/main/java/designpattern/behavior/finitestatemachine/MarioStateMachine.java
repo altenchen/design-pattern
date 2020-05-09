@@ -1,6 +1,7 @@
 package designpattern.behavior.finitestatemachine;
 
-import static designpattern.behavior.finitestatemachine.State.*;
+import designpattern.behavior.finitestatemachine.statepattern.IMario;
+import designpattern.behavior.finitestatemachine.statepattern.SmallMario;
 
 /**
  * @author altenchen
@@ -8,58 +9,43 @@ import static designpattern.behavior.finitestatemachine.State.*;
  * @description 功能
  */
 public class MarioStateMachine {
-
     private int score;
-    private State currentState;
-    
-    private static final State[][] transitionTable = {
-        {SUPER, CAPE, FIRE, SMALL},
-        {SUPER, CAPE, FIRE, SMALL},
-        {CAPE, CAPE, CAPE, SMALL},
-        {FIRE, FIRE, FIRE, SMALL}
-    };
-    
-    private static final int[][] actionTable = {
-            {+100, +200, +300, +0},
-            {+0, +200, +300, -100},
-            {+0, +0, +0, -200},
-            {+0, +0, +0, -300}
-    };
+    private IMario currentState; //不再使用枚举类来表示状态
     
     public MarioStateMachine() {
         this.score = 0;
-        this.currentState = SMALL;
+        this.currentState = new SmallMario(this);
     }
     
     public void obtainMushRoom() {
-        executeEvent(Event.GOT_MASHROOM);
+        this.currentState.obtainMushRoom();
     }
     
     public void obtainCape() {
-        executeEvent(Event.GOT_CAPE);
+        this.currentState.obtainCape();
     }
     
     public void obtainFireFlower() {
-        executeEvent(Event.GOT_FIRE);
+        this.currentState.obtainFireFlower();
     }
     
     public void meetMonster() {
-        executeEvent(Event.MET_MONSTER);
+        this.currentState.meetMonster();
     }
-    
-    public void executeEvent(Event event) {
-        int stateValue = currentState.getValue();
-        int eventValue = event.getValue();
-        this.currentState = transitionTable[stateValue][eventValue];
-        this.score = actionTable[stateValue][eventValue];
-    }
-    
     
     public int getScore() {
-        return this.score;
+        return score;
+    }
+    
+    public void setScore(int score) {
+        this.score = score;
     }
     
     public State getCurrentState() {
-        return this.currentState;
+        return currentState.getName();
+    }
+    
+    public void setCurrentState(IMario currentState) {
+        this.currentState = currentState;
     }
 }
