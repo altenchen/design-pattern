@@ -9,10 +9,13 @@ import designpattern.behavior.finitestatemachine.State;
  * @description 功能
  */
 public class FireMario implements IMario {
-    private MarioStateMachine stateMachine;
+    private static final FireMario instance = new FireMario();
     
-    public FireMario(MarioStateMachine stateMachine) {
-        this.stateMachine = stateMachine;
+    private FireMario() {
+    }
+    
+    public static FireMario getInstance() {
+        return instance;
     }
     
     @Override
@@ -21,23 +24,23 @@ public class FireMario implements IMario {
     }
     
     @Override
-    public void obtainMushRoom() {
+    public void obtainMushRoom(MarioStateMachine stateMachine) {
         //do nothing...
     }
     
     @Override
-    public void obtainCape() {
+    public void obtainCape(MarioStateMachine stateMachine) {
         //do nothing...
     }
     
     @Override
-    public void obtainFireFlower() {
+    public void obtainFireFlower(MarioStateMachine stateMachine) {
         //do nothing
     }
     
     @Override
-    public void meetMonster() {
-        stateMachine.setCurrentState(new SmallMario(stateMachine));
+    public void meetMonster(MarioStateMachine stateMachine) {
+        stateMachine.setCurrentState(SmallMario.getInstance());
         stateMachine.setScore(stateMachine.getScore() - 100);
     }
 }
