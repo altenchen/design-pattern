@@ -1,26 +1,26 @@
-package designpattern.behavior.finitestatemachine.statepattern;
+package designpattern.behavior.state.statepattern;
 
-import designpattern.behavior.finitestatemachine.MarioStateMachine;
-import designpattern.behavior.finitestatemachine.State;
+import designpattern.behavior.state.MarioStateMachine;
+import designpattern.behavior.state.State;
 
 /**
  * @author altenchen
  * @time 2020/5/9
  * @description 功能
  */
-public class SuperMario implements IMario {
-    private static final SuperMario instance = new SuperMario();
+public class CapeMario implements IMario {
+    private static final CapeMario instance = new CapeMario();
     
-    private SuperMario() {
+    private CapeMario() {
     }
     
-    public static SuperMario getInstance() {
+    public static CapeMario getInstance() {
         return instance;
     }
     
     @Override
     public State getName() {
-        return State.SUPER;
+        return State.CAPE;
     }
     
     @Override
@@ -30,14 +30,12 @@ public class SuperMario implements IMario {
     
     @Override
     public void obtainCape(MarioStateMachine stateMachine) {
-        stateMachine.setCurrentState(CapeMario.getInstance());
-        stateMachine.setScore(stateMachine.getScore() + 200);
+        //do nothing
     }
     
     @Override
     public void obtainFireFlower(MarioStateMachine stateMachine) {
-        stateMachine.setCurrentState(FireMario.getInstance());
-        stateMachine.setScore(stateMachine.getScore() + 300);
+        //do nothing
     }
     
     @Override

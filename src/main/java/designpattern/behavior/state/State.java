@@ -1,4 +1,4 @@
-package designpattern.behavior.finitestatemachine;
+package designpattern.behavior.state;
 
 /**
  * @author altenchen

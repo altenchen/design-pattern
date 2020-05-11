@@ -1,7 +1,7 @@
-package designpattern.behavior.finitestatemachine.statepattern;
+package designpattern.behavior.state.statepattern;
 
-import designpattern.behavior.finitestatemachine.MarioStateMachine;
-import designpattern.behavior.finitestatemachine.State;
+import designpattern.behavior.state.MarioStateMachine;
+import designpattern.behavior.state.State;
 
 /**
  * @author altenchen
