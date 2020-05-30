@@ -12,6 +12,6 @@ public abstract class ResourceFile {
         this.filePath = filePath;
     }
 
-    public abstract void extract2txt();
+    public abstract void accept(Extractor extractor);
 
 }

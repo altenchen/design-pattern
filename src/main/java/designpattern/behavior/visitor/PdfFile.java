@@ -11,7 +11,7 @@ public class PdfFile extends ResourceFile {
     }
 
     @Override
-    public void extract2txt() {
-        System.out.println("Extract PDF.");
+    public void accept(Extractor extractor) {
+        extractor.extract2txt(this);
     }
 }

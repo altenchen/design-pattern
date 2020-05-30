@@ -11,9 +11,8 @@ public class WordFile extends ResourceFile {
     }
 
     @Override
-    public void extract2txt() {
-        System.out.println("Extract Word.");
+    public void accept(Extractor extractor) {
+        extractor.extract2txt(this);
     }
-
 
 }
