@@ -15,4 +15,9 @@ public class WordFile extends ResourceFile {
         extractor.extract2txt(this);
     }
 
+    @Override
+    public void accept(Compressor compressor) {
+        compressor.compress(this);
+    }
+
 }

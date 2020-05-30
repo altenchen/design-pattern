@@ -17,4 +17,9 @@ public class PPTFile extends ResourceFile {
         //...将抽取出来的文本保存在跟filePath同名的.txt文件中...
         extractor.extract2txt(this);
     }
+
+    @Override
+    public void accept(Compressor compressor) {
+        compressor.compress(this);
+    }
 }

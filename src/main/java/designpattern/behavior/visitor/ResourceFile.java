@@ -13,5 +13,6 @@ public abstract class ResourceFile {
     }
 
     public abstract void accept(Extractor extractor);
+    public abstract void accept(Compressor compressor);
 
 }

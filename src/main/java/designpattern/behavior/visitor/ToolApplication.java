@@ -11,9 +11,11 @@ import java.util.List;
 public class ToolApplication {
     public static void main(String[] args) {
         Extractor extractor = new Extractor();
+        Compressor compressor = new Compressor();
         List<ResourceFile> resourceFiles = listAllResourceFiles(args[0]);
         for (ResourceFile resourceFile : resourceFiles) {
             resourceFile.accept(extractor);
+            resourceFile.accept(compressor);
         }
     }
 
