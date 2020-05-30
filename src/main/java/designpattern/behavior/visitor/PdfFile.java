@@ -11,12 +11,9 @@ public class PdfFile extends ResourceFile {
     }
 
     @Override
-    public void accept(Extractor extractor) {
-        extractor.extract2txt(this);
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
     }
 
-    @Override
-    public void accept(Compressor compressor) {
-        compressor.compress(this);
-    }
+
 }

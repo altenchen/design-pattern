@@ -5,16 +5,19 @@ package designpattern.behavior.visitor;
  * @create: 2020/5/30
  * @author: altenchen
  */
-public class Extractor {
-    public void extract2txt(PPTFile pptFile) {
+public class Extractor implements Visitor{
+    @Override
+    public void visit(PPTFile pptFile) {
         System.out.println("Extract PPT.");
     }
 
-    public void extract2txt(PdfFile pdfFile) {
+    @Override
+    public void visit(PdfFile pdfFile) {
         System.out.println("Extract PDF.");
     }
 
-    public void extract2txt(WordFile wordFile) {
+    @Override
+    public void visit(WordFile wordFile) {
         System.out.println("Extract WORD.");
     }
 

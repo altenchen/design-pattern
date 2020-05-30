@@ -12,7 +12,6 @@ public abstract class ResourceFile {
         this.filePath = filePath;
     }
 
-    public abstract void accept(Extractor extractor);
-    public abstract void accept(Compressor compressor);
+    public abstract void accept(Visitor visitor);
 
 }
