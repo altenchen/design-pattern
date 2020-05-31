@@ -17,10 +17,10 @@ public class ApplicationMain {
             if (input.equals(":list")) {
                 System.out.println(inputText.toString());
             } else if (input.equals(":undo")) {
-                InputText snapshop = snapshotHolder.popSnapshop();
-                inputText.setText(snapshop.getText());
+                SnapShot snapshop = snapshotHolder.popSnapshop();
+                inputText.restoreSnapshot(snapshop);
             } else {
-                snapshotHolder.pushSnapshot(inputText);
+                snapshotHolder.pushSnapshot(inputText.createSnapshot());
                 inputText.append(input);
             }
         }

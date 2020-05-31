@@ -8,15 +8,13 @@ import java.util.Stack;
  * @author: altenchen
  */
 public class SnapshotHolder {
-    private Stack<InputText> snapshots = new Stack<>();
+    private Stack<SnapShot> snapshots = new Stack<>();
 
-    public InputText popSnapshop() {
+    public SnapShot popSnapshop() {
         return snapshots.pop();
     }
 
-    public void pushSnapshot(InputText inputText) {
-        InputText deepClonedInputText = new InputText();
-        deepClonedInputText.setText(inputText.getText());
-        snapshots.push(deepClonedInputText);
+    public void pushSnapshot(SnapShot snapShot) {
+        snapshots.push(snapShot);
     }
 }

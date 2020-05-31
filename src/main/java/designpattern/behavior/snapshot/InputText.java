@@ -16,8 +16,12 @@ public class InputText {
         text.append(input);
     }
 
-    public void setText(String text) {
-        this.text.replace(0, this.text.length(), text);
+    public SnapShot createSnapshot() {
+        return new SnapShot(text.toString());
+    }
+
+    public void restoreSnapshot(SnapShot snapshot) {
+        this.text.replace(0, this.text.length(), snapshot.getText());
     }
 
     @Override
