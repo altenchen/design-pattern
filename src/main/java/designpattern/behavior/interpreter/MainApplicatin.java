@@ -8,7 +8,7 @@ package designpattern.behavior.interpreter;
 public class MainApplicatin {
     public static void main(String[] args) {
         ExpressionInterpreter expressionInterpreter = new ExpressionInterpreter();
-        long result = expressionInterpreter.interpret("1 2 3 + - *");
+        long result = expressionInterpreter.interpret("1 2 3 + -");
 
         System.out.println(result);
 
