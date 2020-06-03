@@ -1,6 +1,4 @@
-package designpattern.behavior.interpreter.expression;
-
-import designpattern.behavior.observer.p2pdemo.eventbussimpleimpl.Subscribe;
+package designpattern.behavior.interpreter.basicdemo.expression;
 
 /**
  * @description:

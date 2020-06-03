@@ -1,6 +1,6 @@
-package designpattern.behavior.interpreter;
+package designpattern.behavior.interpreter.basicdemo;
 
-import designpattern.behavior.interpreter.expression.*;
+import designpattern.behavior.interpreter.basicdemo.expression.*;
 
 import java.util.Deque;
 import java.util.LinkedList;

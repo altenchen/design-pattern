@@ -1,6 +1,4 @@
-package designpattern.behavior.interpreter.expression;
-
-import org.omg.CORBA.PRIVATE_MEMBER;
+package designpattern.behavior.interpreter.basicdemo.expression;
 
 /**
  * @description:
