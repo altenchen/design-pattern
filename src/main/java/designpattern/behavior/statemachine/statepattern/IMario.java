@@ -1,7 +1,7 @@
-package designpattern.behavior.state.statepattern;
+package designpattern.behavior.statemachine.statepattern;
 
-import designpattern.behavior.state.MarioStateMachine;
-import designpattern.behavior.state.State;
+import designpattern.behavior.statemachine.MarioStateMachine;
+import designpattern.behavior.statemachine.State;
 
 /**
  * @author altenchen

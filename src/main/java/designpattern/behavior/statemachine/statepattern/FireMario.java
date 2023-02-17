@@ -1,7 +1,7 @@
-package designpattern.behavior.state.statepattern;
+package designpattern.behavior.statemachine.statepattern;
 
-import designpattern.behavior.state.MarioStateMachine;
-import designpattern.behavior.state.State;
+import designpattern.behavior.statemachine.MarioStateMachine;
+import designpattern.behavior.statemachine.State;
 
 /**
  * @author altenchen
@@ -10,34 +10,34 @@ import designpattern.behavior.state.State;
  */
 public class FireMario implements IMario {
     private static final FireMario instance = new FireMario();
-    
+
     private FireMario() {
     }
-    
+
     public static FireMario getInstance() {
         return instance;
     }
-    
+
     @Override
     public State getName() {
         return State.FIRE;
     }
-    
+
     @Override
     public void obtainMushRoom(MarioStateMachine stateMachine) {
         //do nothing...
     }
-    
+
     @Override
     public void obtainCape(MarioStateMachine stateMachine) {
         //do nothing...
     }
-    
+
     @Override
     public void obtainFireFlower(MarioStateMachine stateMachine) {
         //do nothing
     }
-    
+
     @Override
     public void meetMonster(MarioStateMachine stateMachine) {
         stateMachine.setCurrentState(SmallMario.getInstance());
